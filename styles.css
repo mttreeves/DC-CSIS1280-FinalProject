@@ -1,0 +1,262 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Tinos&family=Unna&display=swap');
+
+/* General Styles*/
+html {
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgb(100,108,204),rgb(242,218,213),rgb(253,211,139));
+    text-align: center;
+    width: 95%;
+    color: rgb(24,29,84);
+}
+
+body {
+    margin: 2em;
+    border-radius: 20px ;
+    
+}
+
+#head {
+    background-image: url(images/background.jpg);
+    background-color: rgb(132,150,190);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0%;
+    border-radius: 20px;
+    box-shadow:  rgb(79, 89, 201) 20px 20px 20px;
+}
+header img {
+    height: 180px;
+    margin: 20px;
+    
+}
+
+main {
+    border-radius: 20px;
+    background-color: rgb(245,241,234);
+    box-shadow: rgb(185, 184, 184) 5px 5px 30px;
+    padding: 2%;
+}
+
+nav{
+    font-size: 25px;
+    word-spacing: 1em;
+    margin-bottom: 2em;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    font-family: 'DM Serif Display', serif;
+    border-radius: 25px;
+    border: rgba(24,29,84, 0.6) solid 3px ;
+    padding: 15px;
+    background-color: linen;
+    text-decoration: none;
+    color: rgb(24,29,84);
+    font-size: 25px;
+    /* position: sticky; */
+}
+nav a:hover {
+    color: rgb(65,82,138);
+    box-shadow: 10.5px 10.5px 10px;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Unna', serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+}
+
+#top {
+    margin: auto;
+}
+
+footer {
+    font-size: 0.8em;
+    margin-top: 25px;
+    color: rgb(24,29,84);
+}
+
+/* Home Page */
+#about {
+    float: left;
+    width: 50%;
+    padding: 1em;
+    text-align: left;
+    overflow: auto;
+}
+#about ul {
+    margin-top: 50px;
+    border-left: rgb(24,29,84) solid 5px;
+}
+#about li {
+    list-style: none;
+    margin-bottom: 1em;
+    font-size: 22px;
+    
+}
+
+#about h3, #story h3 {
+    border-bottom: 2px solid rgb(24,29,84);
+    border-left: 5px solid rgb(24,29,84);
+    padding-left: 10px;
+}
+#about p, #story p {
+    text-indent: 1em;
+    line-height: 2em;
+}
+
+#story {
+    text-align: left;
+    padding: 1em;
+    overflow: auto;
+    display: block;
+    word-spacing: 2px;
+   
+}
+#story figure {
+    display: inline-block;
+    width: 9em;
+}
+#story figcaption {
+    font-family: 'Tinos', serif;
+    border-top: rgb(24,29,84) solid 2px;
+    font-size: 1em;
+}
+
+#trailer {
+    border-top: 3px dashed rgb(24,29,84);
+    padding-bottom: 2em;
+}
+#trailer h3 {
+    text-align: center;
+    text-decoration: overline;
+
+}
+
+/* Characters */
+#characters h3 {
+    border-bottom: 2px solid rgb(24,29,84);
+}
+
+#note {
+    padding: 0 1em 2em ;
+    border-bottom: 3px dashed rgb(24,29,84);
+}
+
+select, #info p{
+    display: block;
+    margin-bottom: 15px;
+}
+
+#info {
+    width: 50%;
+    float: left;
+    margin-left: 30px;
+}
+#info p {
+    text-align: left;
+    text-indent: 1em;
+    line-height: 2em; 
+}
+
+#output img {
+    border: 8px double rgb(60,41,40);
+    border-radius: 200px;
+}
+
+#demo {
+    margin-top: 20px;
+    border-left: rgb(24,29,84) solid 2.5px;
+    border-right: rgb(24,29,84) solid 2.5px;
+}
+#demo td {
+    padding: 0 2em 2em 2em;
+    
+}
+#demo table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#demo th {
+    font-size: 25px;
+    text-decoration: overline;
+    padding: 1em;
+}
+
+/* Story */
+    #elements h3, #teyvat h3 {
+    border-left: 5px solid rgb(24,29,84);
+    padding-left: 10px;
+}
+#god {
+    text-align: center;
+    text-indent: 1em;
+    width: 80%;
+    margin: auto;
+    line-height: 2em;
+}
+
+#button {
+    border-top: 2px solid rgb(24,29,84);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#archon {
+    display: block;
+    border-bottom: 2px solid rgb(24,29,84);
+    padding-bottom: 20px;
+}
+
+#teyvat {
+    display: inline-block;
+}
+#teyvat p {
+    text-align: left;
+    text-indent: 1em;
+    border-bottom: 3px dashed rgb(24,29,84);
+    padding-bottom: 10px;
+}
+#teyvat figure {
+    border: 8px rgb(65,82,138) double;
+    padding: 0 10px 10px 10px;
+}
+#teyvat figcaption {
+    padding: 0 20px 20px 20px;
+    font-size: 30px;
+    font-family: 'Unna', serif;
+    font-weight: bold;
+    text-decoration: overline;
+    margin-top: 1em;
+}
+#teyvat img {
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Sources */
+#sources {
+    text-align: left;
+    line-height: 2em;
+}
+#sources h3 {
+    text-decoration: overline;
+}
+#sources li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    line-height: 2em;
+    
+}
+

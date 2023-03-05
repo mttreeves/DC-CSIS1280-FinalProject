@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Genshin Impact</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="head">
+        <header>
+            <figure>
+                <img src="images/logo.png" alt="Genshin Impact">
+            </figure>
+        </header>
+
+        <nav id="nav"> 
+            <a href="index.html">Home</a>
+            <a href="characters.html">Characters</a>
+            <a href="content2.html">Story</a>
+            <a href="sources.html">Sources</a>
+        </nav>
+    </div>
+
+    <main>
+        
+        <div id="characters">
+            <h3>Characters:</h3>
+                <p id="note">
+                    As of the Ver 2.6 Update, Genshin Impact has 48 playable characters and are preparing to add 2 new characters to the roster. Check out some of the playable characters that you'll meet throughout the storyline!
+                </p>
+            <select name="characters" onchange="aboutchar();">
+                <option>Amber</option>
+                <option>Kaeya</option>
+                <option>Lisa</option>
+                <option>Jean</option>
+                <option>Venti</option>
+                <option>Diluc</option>
+                <option>Barbara</option>
+                <option>Tartaglia</option>
+                <option>Zhongli</option>
+                <option>Ningguang</option>
+                <option>Keqing</option>
+                <option>Ganyu</option>
+                <option>Xiao</option>
+                <option>Qiqi</option>
+                <option>Beidou</option>
+                <option>Kadehara Kazuha</option>
+                <option>Kamisato Ayaka</option>
+                <option>Thoma</option>
+                <option>Yae Miko</option>
+                <option>Yoimiya</option>
+                <option>Kujou Sara</option>
+                <option>Raiden Shogun</option>
+                <option>Gorou</option>
+                <option>Sangonomiya Kokomi</option>
+            </select>
+            <div id="info">
+                <p id="characterInfo">^ Select a Character!</p> 
+            </div>
+            <div id="output">
+                <img src="characterImages/paimon.jpg">
+            </div>
+        </div>
+
+        <div id="demo">   
+            <table>
+                <tr>
+                    <th>Kadehara Kazuha Character Demo</th>
+                    <th>Ganyu Character Demo</th>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/zif0Lmhrivc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FHRXP8ceeBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <button onclick="topFunction();" id="top" title="Go to top">Return to top</button>
+    </main>
+
+    <footer>Copyright &copy; Matthew Kim &amp; Jade Lai</footer>
+</body>
+</html>

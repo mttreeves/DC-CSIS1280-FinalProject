@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Genshin Impact</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="head">
+        <header>
+            <figure>
+                <img src="images/logo.png" alt="Genshin Impact">
+            </figure>
+        </header>
+
+        <nav id="nav"> 
+            <a href="index.html">Home</a>
+            <a href="characters.html">Characters</a>
+            <a href="content2.html">Story</a>
+            <a href="sources.html">Sources</a>
+        </nav>
+    </div>
+
+    <main>
+        <div id="elements">
+            <h3>About the Elements:</h3>
+            <p id="god">All elements have an associated Archon &lpar;God&rpar; and Country. Each country follows their Archon's ideals. Navigate through the buttons below to view all the elements along with their associated gods and ideals.</p>
+
+            <div id="button">
+                <button type="button" onclick="previous();">Previous</button>
+                <button type="button" onclick="next();">Next</button>
+            </div>
+            
+            <img src="characterImages/paimon.jpg" alt="elements">
+            <p id="archon"></p>
+        </div>
+
+        <div id="teyvat">
+            <h3>Teyvat and Major Cities</h3>
+            <p>Note that at Ver 2.6, only 3 major countries are available</p>
+            <figure>
+                <figcaption>Teyvat</figcaption>
+                <img src="images/teyvatMap.jpg" alt="Map of Teyvat">
+            </figure>
+            <figure>
+                <figcaption>Mondstadt: The City of Freedom</figcaption>
+                <img src="images/mondstadt.jpg" alt="Map of Teyvat">
+            </figure>
+            <figure>
+                <figcaption>Liyue Harbour</figcaption>
+                <img src="images/liyue.jpg" alt="Map of Teyvat">
+            </figure>
+            <figure>
+                <figcaption>Inazuma City</figcaption>
+                <img src="images/inazuma.jpg" alt="Map of Teyvat">
+            </figure>
+        </div>
+
+        <button onclick="topFunction();" id="top" title="Go to top">Return to top</button>
+    </main>
+
+    <footer>Copyright &copy; Matthew Kim &amp; Jade Lai</footer>
+</body>
+</html>
